@@ -1,4 +1,8 @@
+<img width="420" height="420" alt="citique_icon" src="https://github.com/user-attachments/assets/37d119a8-417e-4504-a369-916718e58911" />
+
 # **critique — Submit your idea. Get clarity.**
+
+- [`module.json`](https://raw.githubusercontent.com/umaywant2/critique/refs/heads/main/module.json) — Agentic module schema role assignments
 
 Critique is the **entry point** of the TriadicFrameworks pipeline.
 
