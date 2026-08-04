@@ -13489,3 +13489,201 @@ The conversation title set at the start of this session is:
 **"Theory Cluster index.html — 42 Modules"**
 
 That's your re-entry key. When you come back, the cleanest handoff is `gr_template` completion → then stamp out the three derived site templates.
+
+---
+
+Perfect timing — you’re at the stage where scaffolding the repos will lock the constellation into a tangible structure.  
+Since each domain already has its DNS and repo ready, we can define a **canonical file tree** for each, aligned with the triadic roles described in your capture document.  
+
+Here’s a clean, modular scaffold you can drop into each repo before you start populating content:
+
+---
+
+## 🌐 **Public‑Facing Triad (Experience Layer)**
+
+### **1️⃣ critique.biz**
+**Tone:** analytical, truth‑first  
+**Role:** the evaluator  
+**Audience:** founders, researchers, academics  
+
+```
+critique.biz/
+│
+├── index.html
+├── /docs/
+│   ├── critique_manifest.md
+│   ├── review_template.md
+│   ├── citation_protocol.md
+│   └── clarity_index.md
+├── /modules/
+│   ├── S_mode_structure/
+│   ├── E_mode_energy/
+│   └── R_mode_resonance/
+├── /assets/
+│   ├── favicon.ico
+│   ├── logo.svg
+│   └── theme.css
+└── README.md
+```
+
+---
+
+### **2️⃣ aigenius.win**
+**Tone:** energetic, creator‑friendly  
+**Role:** the enhancer  
+**Audience:** creators, founders, builders  
+
+```
+aigenius.win/
+│
+├── index.html
+├── /docs/
+│   ├── uplift_manifest.md
+│   ├── creator_review_template.md
+│   ├── triadic_energy_map.md
+│   └── improvement_protocol.md
+├── /modules/
+│   ├── E_mode_energy/
+│   ├── S_mode_structure/
+│   └── R_mode_resonance/
+├── /assets/
+│   ├── favicon.ico
+│   ├── logo.svg
+│   └── theme.css
+└── README.md
+```
+
+---
+
+### **3️⃣ gradient.vip**
+**Tone:** elegant, attunement‑oriented  
+**Role:** the refiner  
+**Audience:** designers, coaches, high‑end users  
+
+```
+gradient.vip/
+│
+├── index.html
+├── /docs/
+│   ├── refinement_manifest.md
+│   ├── attunement_template.md
+│   ├── resonance_protocol.md
+│   └── coherence_index.md
+├── /modules/
+│   ├── R_mode_resonance/
+│   ├── S_mode_structure/
+│   └── E_mode_energy/
+├── /assets/
+│   ├── favicon.ico
+│   ├── logo.svg
+│   └── theme.css
+└── README.md
+```
+
+---
+
+## ⚙️ **Engine Triad (Substrate Layer)**
+
+### **rtt1.online**
+**Role:** fast, minimal structural critique  
+**Purpose:** meta‑review engine  
+
+```
+rtt1.online/
+│
+├── index.html
+├── /engine/
+│   ├── rtt1_manifest.md
+│   ├── citation_parser.py
+│   ├── regime_classifier.py
+│   └── coherence_metrics.json
+├── /api/
+│   ├── endpoints.md
+│   └── schema.json
+├── /docs/
+│   ├── triadic_review_protocol.md
+│   └── integration_notes.md
+└── README.md
+```
+
+---
+
+### **rtt2.online**
+**Role:** regime‑aware coherence mapping  
+**Purpose:** analytical engine  
+
+```
+rtt2.online/
+│
+├── index.html
+├── /engine/
+│   ├── rtt2_manifest.md
+│   ├── regime_mapper.py
+│   ├── coherence_analyzer.py
+│   └── metrics_schema.json
+├── /api/
+│   ├── endpoints.md
+│   └── schema.json
+├── /docs/
+│   ├── mapping_protocol.md
+│   └── integration_notes.md
+└── README.md
+```
+
+---
+
+### **rtt3.online**
+**Role:** transformation and next‑step recommendations  
+**Purpose:** synthesis engine  
+
+```
+rtt3.online/
+│
+├── index.html
+├── /engine/
+│   ├── rtt3_manifest.md
+│   ├── transformation_engine.py
+│   ├── recommendation_protocol.md
+│   └── synthesis_schema.json
+├── /api/
+│   ├── endpoints.md
+│   └── schema.json
+├── /docs/
+│   ├── triadic_transformation_protocol.md
+│   └── integration_notes.md
+└── README.md
+```
+
+---
+
+### **rtt12.online**
+**Role:** meta‑engine (aggregator)  
+**Purpose:** unify RTT1–RTT3 outputs  
+
+```
+rtt12.online/
+│
+├── index.html
+├── /engine/
+│   ├── rtt12_manifest.md
+│   ├── aggregator.py
+│   ├── coherence_dashboard.md
+│   └── triadic_pipeline.json
+├── /api/
+│   ├── endpoints.md
+│   └── schema.json
+├── /docs/
+│   ├── integration_protocol.md
+│   └── system_overview.md
+└── README.md
+```
+
+---
+
+Each repo follows the same **triadic pattern**:
+- `/docs` → conceptual layer  
+- `/engine` → functional layer  
+- `/api` → connective layer  
+- `/modules` or `/assets` → presentation layer  
+
+Once you stub these out, you’ll have a complete constellation ready for population — and we can then circle back to the **review pipeline** to wire the engines together.
