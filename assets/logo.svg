@@ -1,1 +1,23 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <circle cx="120" cy="120" r="120" fill="#000000"/>
+
+  <!-- Outer ring (pre‑alignment blue) -->
+  <circle cx="120" cy="120" r="100" stroke="#7fb3ff" stroke-width="10" fill="none" opacity="0.9"/>
+
+  <!-- Inner clarity ring -->
+  <circle cx="120" cy="120" r="60" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.85"/>
+
+  <!-- Core clarity glyph -->
+  <circle cx="120" cy="120" r="14" fill="#ffffff"/>
+
+  <!-- Text label -->
+  <text x="120" y="205" font-family="Inter, Segoe UI, sans-serif"
+        font-size="22" fill="#ffffff" text-anchor="middle"
+        letter-spacing="0.08em">
+    CRITIQUE
+  </text>
+
+</svg>
 
