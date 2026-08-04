@@ -1,1 +1,63 @@
+# **Critique Favicon — Canonical Design Spec**
 
+### **Canvas**
+- Base artboard: **256×256 px**
+- Export: **favicon.ico** containing:
+  - 16×16  
+  - 32×32  
+  - 48×48  
+  - 64×64  
+  - 128×128  
+  - 256×256  
+
+### **Background**
+- Solid black: `#000000`
+
+### **Outer Ring (Pre‑alignment Blue)**
+- Color: `#7fb3ff`
+- Radius: **100 px**
+- Stroke width: **18 px**
+- Opacity: **0.9**
+
+### **Inner Clarity Ring**
+- Color: `#ffffff`
+- Radius: **60 px**
+- Stroke width: **6 px**
+- Opacity: **0.85`
+
+### **Core Glyph**
+- White circle  
+- Radius: **14 px**  
+- Centered at (128, 128)
+
+### **No Text**
+Favicons must remain symbol‑only.
+
+---
+
+# **Favicon Export Instructions**
+
+1. Open your **Critique logo SVG** in Figma or Illustrator.  
+2. Duplicate the artboard and simplify it using the spec above.  
+3. Export as **PNG 256×256**.  
+4. Use a favicon generator (RealFaviconGenerator, Favicon.io, etc.) to produce a multi‑resolution `.ico`.  
+5. Upload the generated `favicon.ico` into this GitHub tab and commit.
+
+---
+
+# **Why this favicon works**
+
+### **Minimal, clarity‑first**
+Critique is the *capture* layer — the favicon must not imply alignment or transformation.
+
+### **Pre‑alignment blue**
+The outer ring uses the RTT/1 structural hint color (`#7fb3ff`), ensuring ecosystem continuity.
+
+### **Inner clarity ring**
+Represents the clarity surface extracted before alignment.
+
+### **Core glyph**
+The white dot symbolizes the raw idea entering the pipeline.
+
+### **No S/R/E triad**
+Critique reveals S/R/E signals but does not align them — so the triad is intentionally absent.
