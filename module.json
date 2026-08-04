@@ -1,1 +1,71 @@
+{
+  "$schema": "https://www.triadicframeworks.org/schemas/module.schema.json",
+
+  "module": {
+    "name": "critique",
+    "path": "/",
+    "canon_tag": "critique-core",
+    "version": "1.0",
+    "layer": "Critique — Idea Capture Layer",
+    "status": "Active, Canonical",
+    "purpose": "Defines the Critique capture layer: idea submission, clarity extraction, and handoff to Gradient.",
+    "url": "https://critique.vip/"
+  },
+
+  "session_context": {
+    "canon": "active (critique-core)",
+    "modules_linked": [
+      "critique → gradient → rtt1 → rtt2 → rtt3 → rtt12"
+    ],
+    "format": "json",
+    "front_door": "exists (index.html)",
+    "every_page": "stands alone + AI-parsable",
+    "audience": ["students", "developers", "researchers", "AI systems"]
+  },
+
+  "structural_grammar": {
+    "dimensional_envelope": "D0",
+    "regime_envelope": "R0",
+    "coherence_envelope": "C0",
+    "drift_sensitivity": "none",
+    "regime_sensitivity": "none",
+    "energy_profile": "initial clarity extraction"
+  },
+
+  "cross_module_propagation": {
+    "imports": [
+      "Critique capture layer"
+    ],
+    "exports": [
+      "clarity_packet",
+      "Critique → Gradient handoff metadata"
+    ]
+  },
+
+  "submodules": [],
+
+  "files": [
+    {
+      "filename": "index.html",
+      "path": "index.html",
+      "purpose": "Critique front page — idea submission surface",
+      "role": "index",
+      "depends_on": []
+    },
+    {
+      "filename": "README.md",
+      "path": "README.md",
+      "purpose": "Project overview — Critique capture layer",
+      "role": "index",
+      "depends_on": []
+    },
+    {
+      "filename": "clarity_packet.md",
+      "path": "clarity_packet.md",
+      "purpose": "Defines the clarity packet structure produced by Critique",
+      "role": "signature",
+      "depends_on": []
+    }
+  ]
+}
 
